@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="A100_A109\" />
+    <Compile Remove="A100_A109\**" />
+    <EmbeddedResource Remove="A100_A109\**" />
+    <None Remove="A100_A109\**" />
   </ItemGroup>
 
 </Project>
