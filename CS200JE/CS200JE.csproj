@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>CS200JE.A121_A130.A122_LinqToList</StartupObject>
+    <StartupObject>CS200JE.A080_A089.A085_DateTime</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
