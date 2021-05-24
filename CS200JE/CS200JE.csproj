@@ -3,13 +3,17 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>CS200JE.E110_E120.A110_Dictionary</StartupObject>
+    <StartupObject>CS200JE.A060_A069.A063_BinarySearch</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="A100_A109\**" />
     <EmbeddedResource Remove="A100_A109\**" />
     <None Remove="A100_A109\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="A090_A099\" />
   </ItemGroup>
 
 </Project>
