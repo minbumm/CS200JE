@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS200JE.A060_A069
 {
-    class A064_ClassAndStruct
+    class A065_ClassAndStruct
     {
         struct DateStruct
         {
