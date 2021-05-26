@@ -15,4 +15,12 @@
     <None Remove="A100_A109\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="A060_A069\A069_.ProPertyTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="A060_A069\A069_.ProPertyTest.cs" />
+  </ItemGroup>
+
 </Project>
