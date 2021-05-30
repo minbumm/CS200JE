@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>CS200JE.A050_A059.A053_SumOfFactorials</StartupObject>
+    <StartupObject>CS200JE.A050_A059.A058_ArrayClass</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
