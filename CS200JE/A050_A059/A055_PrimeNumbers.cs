@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS200JE
+namespace CS200JE.A050_A059
 {
     class A055_PrimeNumbers
     {
