@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>CS200JE.A060_A069.A068_Constructor</StartupObject>
+    <StartupObject>CS200JE.A030_A039.A036_NullConditionalOperator</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
