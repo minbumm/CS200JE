@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS200JE.A020_A029
 {
-    class A024_StringMethods
+    class A025_StringMethods
     {
         static void Main(string[] args)
         {
