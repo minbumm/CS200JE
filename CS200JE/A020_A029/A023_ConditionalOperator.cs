@@ -20,5 +20,6 @@ namespace CS200JE.A020_A029
             {
                 Console.Write("{0,3}{1}", i, i % 10 != 0 ? "" : "\n");
             }
+        }
     }
 }
