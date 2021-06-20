@@ -38,5 +38,6 @@ namespace CS200JE.A010_A019
                 Console.WriteLine("{0:#,#.##;(#,#.##);zero}", -1234.567);
                 Console.WriteLine("{0:#,#.##;(#,#.##);zero}", 0);
             }
+        }
     }
 }
