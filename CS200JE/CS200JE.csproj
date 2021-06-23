@@ -20,6 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="A090_A099\A090_params.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="A060_A069\A069_.ProPertyTest.cs" />
   </ItemGroup>
 
