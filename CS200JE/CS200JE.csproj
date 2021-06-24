@@ -23,6 +23,7 @@
     <Compile Include="A090_A099\A090_params.cs" />
     <Compile Include="A090_A099\A091_OptionalNamedArgument.cs" />
     <Compile Include="A090_A099\A092_MethodOverloading.cs" />
+    <Compile Include="A090_A099\A093_GenericMethod.cs" />
   </ItemGroup>
 
   <ItemGroup>
