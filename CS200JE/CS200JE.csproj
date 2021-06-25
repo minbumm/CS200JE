@@ -25,6 +25,7 @@
     <Compile Include="A090_A099\A092_MethodOverloading.cs" />
     <Compile Include="A090_A099\A093_GenericMethod.cs" />
     <Compile Include="A090_A099\A094_GenericClass.cs" />
+    <Compile Include="A090_A099\A095_GenericMethodsUsingDynamic.cs" />
   </ItemGroup>
 
   <ItemGroup>
