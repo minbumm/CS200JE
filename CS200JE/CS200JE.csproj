@@ -8,11 +8,8 @@
 
   <ItemGroup>
     <Compile Remove="A090_A099\**" />
-    <Compile Remove="A100_A109\**" />
     <EmbeddedResource Remove="A090_A099\**" />
-    <EmbeddedResource Remove="A100_A109\**" />
     <None Remove="A090_A099\**" />
-    <None Remove="A100_A109\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +28,10 @@
 
   <ItemGroup>
     <None Include="A060_A069\A069_.ProPertyTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="A100_A109\" />
   </ItemGroup>
 
 </Project>
