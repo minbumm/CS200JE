@@ -16,5 +16,42 @@ namespace A144_ListView
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            myListView.GridLines = true;
+            myListView.FullRowSelect = true;
+
+            myListView.Columns.Add("제품명", 150);
+            myListView.Columns.Add("단가", 100, HorizontalAlignment.Right);
+            myListView.Columns.Add("수량", 10, HorizontalAlignment.Right);
+            myListView.Columns.Add("금액", 100, HorizontalAlignment.Right);
+
+            ListViewItem item1 = new ListViewItem("Access", 0);
+            ListViewItem item2 = new ListViewItem("Excel", 1);
+            ListViewItem item3 = new ListViewItem("PowerPoint", 2);
+            ListViewItem item4 = new ListViewItem("Word", 3);
+
+            item1.SubItems.Add("22,000");
+            item1.SubItems.Add("30");
+            item1.SubItems.Add("660,000");
+
+            item2.SubItems.Add("33,000");
+            item2.SubItems.Add("50");
+            item2.SubItems.Add("1,650,000");
+
+            item3.SubItems.Add("11,000");
+            item3.SubItems.Add("50");
+            item3.SubItems.Add("550,000");
+
+            item4.SubItems.Add("22,000");
+            item4.SubItems.Add("30");
+            item4.SubItems.Add("660,000");
+
+            myListView.Items.AddRange(new ListViewItem[] { item1, item2, item3, item4});
+
+            ImageList sImageList = new ImageList();
+
+        }
     }
 }
