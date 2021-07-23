@@ -87,6 +87,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A_145", "A_145", "{B78B268D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A146_TreeView", "A146_TreeView\A146_TreeView.csproj", "{D158C620-C9DB-4D82-8429-8EEBC821919B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CS200JE.WPF", "CS200JE.WPF", "{4A082715-B4AB-4B4E-A120-517FD959B2C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
